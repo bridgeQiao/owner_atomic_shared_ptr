@@ -1,6 +1,6 @@
 # owner_atomic_shared_ptr
 
-`owner_atomic_shared_ptr` is shared_ptr without reference circle problem. Inspired by Nim's ORC, which means `ower & reference count`.
+`owner_atomic_shared_ptr` is shared_ptr without reference circle problem. Inspired by Nim's ORC, which means `owner & reference count`.
 
 The main idea of my implementation is each heap memory has `a owner` and `a set` for reference count.
 
